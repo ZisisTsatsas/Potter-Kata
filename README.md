@@ -29,7 +29,7 @@ possible.
 <p>
 The problem seems simple at first, but it is a bit tricky. We could just add all the books in the set up to 5 and then apply the discount,
 but in the scenario where we have all 5 books of the series plus another 3 in the basket this solution would apply a discount as: (5 * 8 * 0.75 + 3 * 8 * 0.9) = 51.6
-but the optimal solution should be: (4 * 8 * 0.75 + 4 * 8 * 0.75) = 51.2
+but the optimal solution should be: (4 * 8 * 0.80 + 4 * 8 * 0.80) = 51.2
 </p>
 
 <p>
