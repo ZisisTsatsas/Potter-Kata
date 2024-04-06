@@ -40,7 +40,7 @@ This is done as follows:
 ```
 sort the basket by book volume.
 for each book in the basket:
-   attempt to add the book to an existing discount set by:
+   attempt to add the book to an existing discount set that does not contain it by:
       - finding the set with the minimum total price after adding the book.
       - add the book to the best discount set found.
    if the book cannot be added to any existing set or if there are no existing sets:
